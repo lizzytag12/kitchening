@@ -1,3 +1,29 @@
-body{ 
-   background-image: url("/images/bg-body.png");
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
 }
+
+
+body{ 
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  
+}
+
+
+a {
+
+   text-decoration: none;
+   color: white;
+}
+
+
+li{
+   list-style: none;
+
+}
+
+/* img{
+   width: 100%;
+} */

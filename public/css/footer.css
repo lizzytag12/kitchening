@@ -1,0 +1,10 @@
+.footer__menu li {
+
+    background-color: var(--colorRojo);
+    border-bottom: solid 2px white;
+    padding: 10px 0;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    
+}
