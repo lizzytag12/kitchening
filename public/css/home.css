@@ -99,8 +99,43 @@ width: 100%;
         margin-right: 2%;
         
     }
-    .home__product:nth-child(even){ /* pseudoclases*/
-/* A los hijos pares*/
+     .home__product:nth-child(even){ /* pseudoclases*/
+      /* A los hijos pares*/
         margin-right: 0;
     }
 }
+
+
+
+ /*Laptops*/
+
+ @media(min-width : 768px){
+
+            /*Products*/
+
+
+    .home__product{
+
+        width:32% ;
+        margin-right: 2%;
+        
+    }
+    
+    .home__product:nth-child(even){ /* pseudoclases*/
+        /* A los hijos pares*/
+          margin-right: 2%;
+      }
+    
+    .home__product:nth-child(3n){ /* pseudoclases*/
+        /* A los hijos pares*/
+          margin-right: 0%;
+      }
+
+
+
+
+ }
+
+
+
+

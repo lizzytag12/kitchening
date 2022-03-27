@@ -8,3 +8,36 @@
     width: 100%;
     
 }
+
+
+@media(min-width :768px){
+
+    .footer__menu{
+
+        background-color: var(--colorRojo);
+        border-radius: 20px 20px 0px 0px; /*borde redondeado del footer*/
+        width: 100%;
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    .footer__menu li {
+        border-bottom:0 ;
+        display: inline-block;
+        width: 110px;
+        padding: 7px 0;
+        text-transform: capitalize;
+        border-right:  solid 2px white; /* linea lateral derecho*/
+
+        
+    }
+
+    .footer__menu li:last-child{
+
+        border-right: none;
+
+
+    }
+
+
+}
