@@ -13,6 +13,8 @@ body.home {
 .home__box-products{
     
     margin: 30px 0;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -42,15 +44,14 @@ width: 100%;
 .home__product__box__zoom{
 
     background-color: rgba(0, 0, 0, 0.5);
-    display: block; /** oara que deje de ser un elemento en linea y que el width me lo tome**/
+    display: inline-block;
+    left: 0px;  
     padding: 10px 0;
     position: absolute;
-    top: 45%;
-    left: 0px;
     text-transform: uppercase;
-    text-align: center; /** alinea el contenido, NO al bloque**/
+    text-align: center;
+    top: 45%;
     width: 100%;
-    
 }
 
 .home__product h4{
@@ -88,22 +89,18 @@ width: 100%;
     /**PRODUCTS*/
 
     .home__box-products{
-        overflow: hidden;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-between ;
     }
-
 
     .home__product{
+        width: 49%;
 
-        width:49% ;
-        float: left;
-        margin-right: 2%;
-        
+       
     }
-     .home__product:nth-child(even){ /* pseudoclases*/
-      /* A los hijos pares*/
-        margin-right: 0;
-    }
-}
+    
+} 
 
 
 
@@ -117,20 +114,9 @@ width: 100%;
     .home__product{
 
         width:32% ;
-        margin-right: 2%;
+        
         
     }
-    
-    .home__product:nth-child(even){ /* pseudoclases*/
-        /* A los hijos pares*/
-          margin-right: 2%;
-      }
-    
-    .home__product:nth-child(3n){ /* pseudoclases*/
-        /* A los hijos pares*/
-          margin-right: 0%;
-      }
-
 
 
 
